@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/a', function(req, res, next) {
-	res.render('NewFile')
+	res.render('alex.html')
 });
 
 module.exports = router;
